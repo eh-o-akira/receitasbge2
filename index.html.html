@@ -1,0 +1,424 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styleatualizado.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title> Receitas</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-bowl-food" id="nav_logo"> Receitas Paraenses</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home"> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu"> Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre"> Projeto</a>
+                </li>
+            </ul>
+
+            <a href="#pedido" class="btn-default">
+    Peça aqui
+</a>
+
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home"> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu"> Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre"> Projeto</a>
+                </li>
+            </ul>
+
+            <a href="#pedido" class="btn-default">
+    Peça aqui
+</a>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Receitas
+                    <span> Paraenses</span>
+                </h1>
+
+                <p class="description">
+                    A culinária Paraense é uma das mais diversificadas do mundo todo. Venha conhecer você também!!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default" id="scroll">
+                        Ver Receitas!
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="amazonia-soul-removebg-preview.png">
+
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section_title"> Cardápio</h2>
+            <h3 class="section_subtitle"> Nossas Iguarias Regionais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="maniçoba-removebg-preview1 (1).png" class=dish-img alt="">
+
+                    <h3 class="dish-title">
+                        <a href="maniçoba.html" target="_self" style="text-decoration: none; color: inherit;">
+        Maniçoba
+    </a>
+                    </h3>
+                    <span class="dish-description">
+                        Prato típico da culinária do Norte, é tradicional do Círio de Nazaré, no Pará.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="tacaca-removebg-preview2.png" class=dish_utensils alt="">
+
+                    <h3 class="dish-title">
+                        <a href="tacaca.html" target="_self" style="text-decoration: none; color: inherit;">
+        Tacacá
+    </a>
+                    </h3>
+
+                    <span class="dish-description">
+                        Tacacá é uma sopa típica da região Norte do Brasil, feita com tucupi, jambu, goma de tapioca e camarão seco.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="receita-de-pato-no-tucupi-semfundo-removebg-preview (1).png" class=dish_utensils alt="">
+
+                    <h3 class="dish-title">
+                        <a href="pato.html" target="_self" style="text-decoration: none; color: inherit;">
+        Pato no Tucupi
+    </a>
+                    </h3>
+
+                    <span class="dish-description">
+                        Pato no tucupi é um prato tradicional do Norte do Brasil, feito com pato assado e cozido em tucupi com jambu.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="brigadeirodecastanha-removebg2 (1).png" class=dish_utensils alt="">
+
+                    <h3 class="dish-title">
+                        <a href="brigadeiro.html" target="_self" style="text-decoration: none; color: inherit;">
+        Brigadeiro de Castanha do Pará
+    </a>
+                    </h3>
+
+                    <span class="dish-description">
+                        Brigadeiro de castanha-do-Pará é uma variação do doce, feito com leite condensado e castanha-do-Pará triturada.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="pedido">
+            <h2 class="section_title">Faça seu Pedido</h2>
+            <h3 class="section_subtitle">Preencha seus dados para simular a compra da sua receita favorita</h3>
+
+            <form id="form_pedido" class="pedido-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" maxlength="14" placeholder="000.000.000-00" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="data_nascimento">Data de Nascimento</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" maxlength="15" placeholder="(99) 99999-9999" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" name="endereco" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="receita">Receita Desejada</label>
+                    <select id="receita" name="receita" required>
+                <option value="">Selecione</option>
+                <option value="Maniçoba">Maniçoba</option>
+                <option value="Tacacá">Tacacá</option>
+                <option value="Pato no Tucupi">Pato no Tucupi</option>
+                <option value="Brigadeiro de Castanha">Brigadeiro de Castanha</option>
+            </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantidade">Quantidade</label>
+                    <input type="number" id="quantidade" name="quantidade" min="1" max="10" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="observacoes">Observações</label>
+                    <textarea id="observacoes" name="observacoes" rows="3" placeholder="Ex: sem pimenta, mais jambu..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-default">Enviar Pedido</button>
+            </form>
+
+            <!-- Área de confirmação que só aparece após envio -->
+            <div id="confirmacao" class="pedido-form" style="display: none;">
+                <h3>Confirme seus dados</h3>
+                <div id="resumo"></div>
+                <button id="confirmarBtn" class="btn-default">Confirmar Pedido</button>
+                <button id="editarBtn" class="btn-default" style="background:#ccc; color:#000;">Editar Dados</button>
+            </div>
+        </section>
+
+
+
+        <section id="sobre">
+            <img src="yuê-removebg-preview (1).png" id="sobre_yuê" alt="">
+
+            <div id="sobre_content">
+                <h2 class="section_title">
+                    Comentários!:
+                </h2>
+                <h3 class="section_subtitle">
+                    Comentários Aleatórios sobre o nosso Projeto
+                </h3>
+
+                <div id="feedback">
+                    <div class="feedback">
+                        <img src="eusabo-removebg-preview mini.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulano
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "O Antônio Lucas é leso"
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagens/waved.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Receitas.BGE
+            </span>
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Máscara CPF
+        document.getElementById('cpf').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, "");
+            if (value.length > 11) value = value.slice(0, 11);
+
+            value = value.replace(/(\d{3})(\d)/, "$1.$2");
+            value = value.replace(/(\d{3})(\d)/, "$1.$2");
+            value = value.replace(/(\d{3})(\d{1,2})$/, "$1-$2");
+
+            e.target.value = value;
+        });
+
+        // Máscara Telefone
+        document.getElementById('telefone').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, "");
+            if (value.length > 11) value = value.slice(0, 11);
+
+            if (value.length <= 10) {
+                value = value.replace(/(\d{2})(\d{4})(\d{0,4})/, "($1) $2-$3");
+            } else {
+                value = value.replace(/(\d{2})(\d{5})(\d{0,4})/, "($1) $2-$3");
+            }
+
+            e.target.value = value.trim();
+        });
+
+        // Confirmação do formulário
+        document.getElementById('form_pedido').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // pega os dados
+            const dados = {
+                nome: document.getElementById('nome').value,
+                cpf: document.getElementById('cpf').value,
+                nascimento: document.getElementById('data_nascimento').value,
+                telefone: document.getElementById('telefone').value,
+                email: document.getElementById('email').value,
+                endereco: document.getElementById('endereco').value,
+                receita: document.getElementById('receita').value,
+                quantidade: document.getElementById('quantidade').value,
+                observacoes: document.getElementById('observacoes').value
+            };
+
+            // monta o resumo
+            let resumoHTML = `
+        <p><strong>Nome:</strong> ${dados.nome}</p>
+        <p><strong>CPF:</strong> ${dados.cpf}</p>
+        <p><strong>Data de Nascimento:</strong> ${dados.nascimento}</p>
+        <p><strong>Telefone:</strong> ${dados.telefone}</p>
+        <p><strong>Email:</strong> ${dados.email}</p>
+        <p><strong>Endereço:</strong> ${dados.endereco}</p>
+        <p><strong>Receita:</strong> ${dados.receita}</p>
+        <p><strong>Quantidade:</strong> ${dados.quantidade}</p>
+        <p><strong>Observações:</strong> ${dados.observacoes}</p>
+    `;
+
+            document.getElementById('resumo').innerHTML = resumoHTML;
+
+            // esconde formulário, mostra confirmação
+            document.getElementById('form_pedido').style.display = 'none';
+            document.getElementById('confirmacao').style.display = 'block';
+        });
+
+        // Confirmar
+        document.getElementById('confirmarBtn').addEventListener('click', function() {
+            alert("✅ Pedido confirmado com sucesso!");
+            location.reload(); // recarrega a página para simular um 'reset'
+        });
+
+        // Editar
+        document.getElementById('editarBtn').addEventListener('click', function() {
+            document.getElementById('confirmacao').style.display = 'none';
+            document.getElementById('form_pedido').style.display = 'block';
+        });
+    </script>
+
+    <script>
+        document.querySelectorAll('a[href^="#pedido"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector('#pedido').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
